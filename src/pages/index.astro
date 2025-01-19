@@ -4,8 +4,8 @@ import NavBar from '../components/NavBar.astro';
 import Hero from '../components/Hero.astro';
 import Services from '../components/Services.astro';
 import Pricing from '../components/Pricing.astro';
-import Contact from '../components/Contact.astro';
 import Footer from '../components/Footer.astro';
+import Contact from '../components/Contact';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -16,6 +16,6 @@ import Footer from '../components/Footer.astro';
   <Hero />
   <Services />
   <Pricing />
-  <Contact />
+  <Contact client:load />
   <Footer />
 </Layout>

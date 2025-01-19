@@ -1,14 +1,18 @@
+---
+import Check from './ui/Check';
+---
+
 <section id='planes' class='text-gray-600 body-font overflow-hidden'>
   <div class='container px-5 py-24 mx-auto'>
     <div class='flex flex-col text-center w-full mb-20'>
       <h1
         class='sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900'
       >
-        Conoce nuestros precios
+        Conoce nuestros Planes
       </h1>
-      <p class='lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500'>
+      <!-- <p class='lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500'>
         precios acorde a tus necesidades
-      </p>
+      </p> -->
     </div>
     <div class='flex flex-wrap -m-4'>
       <div class='p-4 xl:w-1/4 md:w-1/2 w-full'>
@@ -26,72 +30,22 @@
             <span class='text-lg ml-1 font-normal text-gray-500'>/mensual</span>
           </h1>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Historial de evaluaciones antropométricas.
+            <Check />
+            Historial de evaluaciones antropométricas.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Generación de reportes en PDF.
+            <Check />
+            Hasta 15 clientes incluidos.
+          </p>
+          <p class='flex items-center text-gray-600 mb-2'>
+            <Check />
+            Generación de reportes en PDF.
           </p>
           <p class='flex items-center text-gray-600 mb-6'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Recordatorios automáticos para seguimientos.
+            <Check />Recordatorios automáticos para seguimientos.
           </p>
           <p class='flex items-center text-gray-600 mb-6'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Gestión individual de clientes.
+            <Check />Gestión individual de clientes.
           </p>
         </div>
       </div>
@@ -105,165 +59,61 @@
             >POPULAR</span
           >
           <h2 class='text-sm tracking-widest title-font mb-1 font-medium'>
-            Plan Personal Trainer
+            Plan Profesional
           </h2>
+
           <h1
             class='text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200'
           >
-            <span>$25.000</span>
+            <span>$29.900</span>
             <span class='text-lg ml-1 font-normal text-gray-500'>/mensual</span>
           </h1>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Todo lo incluido en el Plan Evaluaciones.
+            <Check />Todo lo incluido en el Plan Evaluaciones.
+          </p>
+          <p class='flex items-start text-gray-600 mb-2'>
+            <Check />1 módulo adicional a elegir: Nutrición (planes
+            alimenticios) O Preparación física (rutinas).
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Creador de rutinas personalizadas.
-          </p>
-          <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Gestión de clientes con progresos y objetivos.
+            <Check />Hasta 25 clientes incluidos.
           </p>
           <p class='flex items-center text-gray-600 mb-6'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Envío de rutinas y planes por correo.
+            <Check />Envío de rutinas y planes por correo.
           </p>
         </div>
       </div>
-      <!-- Plan para Nutricionistas -->
+      <!-- Plan Premium -->
       <div class='p-4 xl:w-1/4 md:w-1/2 w-full'>
         <div
           class='h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden'
         >
           <h2 class='text-sm tracking-widest title-font mb-1 font-medium'>
-            Plan para Nutricionistas
+            Plan Premium
           </h2>
           <h1
             class='text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200'
           >
-            <span>$25.000</span>
+            <span>$59.900</span>
             <span class='text-lg ml-1 font-normal text-gray-500'>/mensual</span>
           </h1>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Todo lo incluido en el Plan Evaluaciones.
+            <Check />Todo lo incluido en el Plan Evaluaciones.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Creador de recetas personalizadas.
+            <Check />3 Cuentas profesionales.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Gestión de planes nutricionales individuales.
+            <Check />Hasta 50 clientes incluidos.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Envío de planes a clientes.
+            <Check />Branding personalizado.
+          </p>
+          <p class='flex items-center text-gray-600 mb-2'>
+            <Check />Panel de análisis avanzado.
+          </p>
+          <p class='flex items-center text-gray-600 mb-2'>
+            <Check />Soporte prioritario.
           </p>
         </div>
       </div>
@@ -278,95 +128,32 @@
           <h1
             class='text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200'
           >
-            <span> <span class='text-2xl'>Desde</span> $100.000</span>
+            <span> <span class='text-2xl'>Desde</span> $149.900</span>
             <span class='text-lg lg:text-sm ml-1 font-normal text-gray-500'
               >/mensual</span
             >
           </h1>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Acceso a todos los módulos: Evaluaciones, Rutinas y Recetas.
+            <Check />Acceso a todos los módulos: Evaluaciones, Rutinas y
+            Recetas.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Gestión de múltiples usuarios y entrenadores.
+            <Check />10 Cuentas profesionales.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Reportes avanzados y analíticas de uso.
+            <Check />Hasta 200 clientes iniciales.
           </p>
           <p class='flex items-center text-gray-600 mb-2'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Soporte prioritario.
+            <Check />Reportes avanzados y analíticas de uso.
+          </p>
+          <p class='flex items-center text-gray-600 mb-2'>
+            <Check />Soporte prioritario.
+          </p>
+          <p class='flex items-center text-gray-600 mb-2'>
+            <Check />Branding personalizado.
           </p>
           <p class='flex items-center text-gray-600 mb-6'>
-            <span
-              class='w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0'
-            >
-              <svg
-                fill='none'
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2.5'
-                class='w-3 h-3'
-                viewBox='0 0 24 24'
-              >
-                <path d='M20 6L9 17l-5-5'></path>
-              </svg>
-            </span>Y mucho más.
+            <Check />Y mucho más.
           </p>
         </div>
       </div>
